@@ -1,18 +1,19 @@
 body {
     background-color: #f5f5f5;
+    overflow: hidden;
 }
 
 #icon {
     width: 50px;
     height: 50px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     float: right;
 }
 
 #logo {
-    width: 350px;
-    height: 140px;
+    width: 300px;
+    height: 100px;
     /* border: 1px solid #d4cece; */
     margin: 0 auto;
     display: block; 
@@ -43,6 +44,7 @@ nav {
     width: 300px;
     height: 100px;
 } 
+
 
 ul  {
     background-color: #dfd3bf;
@@ -170,3 +172,88 @@ button:hover {
 
 
 
+.second_box{
+    display: flex;          
+    gap: 7px; 
+}
+
+
+.side{
+    width: 100px;
+    margin-left: 0;
+}
+
+.hpinit{
+    width: 333px;
+    background-color: #8b8b8b;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pinit{
+    width: 333px;
+    background-color: #c4c4c4;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    border-bottom: 1px solid rgb(46, 75, 81);
+    
+}
+
+.title_profile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#pl {
+    font-size: xx-large;
+    margin-top: 0;
+}
+
+#profile{
+    width: 40px;  
+    height: 40px          
+    height: auto;
+    position: absolute;     
+    right: 20px;   
+}   
+
+.graphs{
+    padding-left: 0px;
+}
+
+#graph_vendas{
+    height: 270px;
+   
+}
+
+#graph_3{
+    height: 270px;
+    width: 450px;
+    padding-left: 10px;
+}
+
+#graph_4{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+#graph_5{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+#graph_6{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 150px;
+    height: 150px;
+}
